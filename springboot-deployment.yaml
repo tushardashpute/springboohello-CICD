@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: springboot
-        image: 552166557473.dkr.ecr.us-east-1.amazonaws.com/springdemo:2
+        image: tushardashpute/springboohello:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 33333
