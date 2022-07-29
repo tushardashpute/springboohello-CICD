@@ -4,7 +4,7 @@
     "executionRoleArn": "%EXECUTION_ROLE_ARN%",
     "containerDefinitions": [
         {
-            "image": "%REPOSITORY_URI%:%SHORT_COMMIT%",
+            "image": "%REPOSITORY_URI%",
             "name": "%SERVICE_NAME%",
             "cpu": 10,
             "memory": 256,
