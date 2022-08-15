@@ -17,7 +17,7 @@ pipeline {
         }
         stage ('Build Artifact') {
             steps {
-                sh 'mvn clean installll'
+                sh 'mvn clean install'
             }
         }
         stage ('Build Docker Image') {
