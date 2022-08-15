@@ -27,7 +27,8 @@ pipeline {
                 }
             }
         }
-	    post{
+    }
+    post{
         success{
             setBuildStatus("Build succeeded", "SUCCESS");
         }
