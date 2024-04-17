@@ -7,10 +7,10 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: springboot.tdashpute.online
+  - host: hello.tdashpute.online
     http:
       paths:
-      - path: /
+      - path: /listallcustomers
         pathType: Prefix
         backend:
           service:
